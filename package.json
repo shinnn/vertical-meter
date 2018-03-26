@@ -6,7 +6,7 @@
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"scripts": {
 		"pretest": "eslint --fix --format=codeframe index.js test.js",
-		"test": "nyc ava"
+		"test": "nyc --reporter=html --reporter=text ava"
 	},
 	"license": "ISC",
 	"files": [
@@ -28,15 +28,18 @@
 		"unicode"
 	],
 	"dependencies": {
-		"rate-map": "^1.0.0"
+		"rate-map": "^1.0.1"
 	},
 	"devDependencies": {
-		"@shinnn/eslint-config-node-legacy": "^3.0.0",
-		"ava": "^0.19.1",
-		"eslint": "^3.19.0",
-		"nyc": "^10.2.2"
+		"@shinnn/eslint-config-node": "^5.0.0",
+		"ava": "^0.25.0",
+		"eslint": "^4.19.1",
+		"nyc": "^11.6.0"
 	},
 	"eslintConfig": {
-		"extends": "@shinnn/node-legacy"
+		"extends": "@shinnn/node",
+		"rules": {
+			"no-var": "off"
+		}
 	}
 }

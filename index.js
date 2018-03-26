@@ -6,5 +6,5 @@ var contents = ['⠀', '⣀', '⣤', '⣶', '⣿'];
 var MAX = contents.length - 1;
 
 module.exports = function verticalMeter(val) {
-  return contents[Math.round(rateMap(val, 0, MAX))];
+	return contents[Math.round(rateMap(val, 0, MAX))];
 };
