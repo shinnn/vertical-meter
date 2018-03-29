@@ -37,9 +37,6 @@
 		"nyc": "^11.6.0"
 	},
 	"eslintConfig": {
-		"extends": "@shinnn/node",
-		"rules": {
-			"no-var": "off"
-		}
+		"extends": "@shinnn/node"
 	}
 }

@@ -1,9 +1,9 @@
 'use strict';
 
-var rateMap = require('rate-map');
+const rateMap = require('rate-map');
 
-var contents = ['⠀', '⣀', '⣤', '⣶', '⣿'];
-var MAX = contents.length - 1;
+const contents = ['⠀', '⣀', '⣤', '⣶', '⣿'];
+const MAX = contents.length - 1;
 
 module.exports = function verticalMeter(val) {
 	return contents[Math.round(rateMap(val, 0, MAX))];
