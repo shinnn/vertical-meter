@@ -50,3 +50,17 @@ test('invalidate too large number', t => {
 		'Expected the first argument to be a number (0 ~ 1), but got a too large number 1.1.'
 	);
 });
+
+test('invalidate missing argument', t => {
+	t.throws(
+		() => verticalMeter(),
+		'Expected 1 argument (<number>), but got no arguments.'
+	);
+});
+
+test('invalidate too many arguments', t => {
+	t.throws(
+		() => verticalMeter(1, 1),
+		'Expected 1 argument (<number>), but got 2 arguments.'
+	);
+});
