@@ -1,6 +1,6 @@
 {
 	"name": "vertical-meter",
-	"version": "0.2.0",
+	"version": "1.0.0",
 	"description": "Generate a dotted vertical bar whose height depends on the given value",
 	"repository": "shinnn/vertical-meter",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
