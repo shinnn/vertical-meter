@@ -2,7 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/vertical-meter.svg)](https://www.npmjs.com/package/vertical-meter)
 [![Build Status](https://travis-ci.org/shinnn/vertical-meter.svg?branch=master)](https://travis-ci.org/shinnn/vertical-meter)
-[![Build status](https://ci.appveyor.com/api/projects/status/pfaygmaamvhpirb4/branch/master?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/vertical-meter/branch/master)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/vertical-meter.svg)](https://coveralls.io/github/shinnn/vertical-meter?branch=master)
 
 Generate a dotted vertical bar whose height depends on the given value
