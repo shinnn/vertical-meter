@@ -2,13 +2,13 @@
 	"name": "vertical-meter",
 	"version": "1.0.0",
 	"description": "Generate a dotted vertical bar whose height depends on the given value",
-	"repository": "shinnn/vertical-meter",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"repository": "shinnn/vertical-meter",
+	"license": "ISC",
 	"scripts": {
 		"pretest": "eslint .",
 		"test": "nyc ava"
 	},
-	"license": "ISC",
 	"files": [
 		"index.js"
 	],
@@ -28,14 +28,14 @@
 		"unicode"
 	],
 	"dependencies": {
-		"rate-map": "^1.0.1"
+		"rate-map": "^1.0.2"
 	},
 	"devDependencies": {
-		"@shinnn/eslint-config": "^6.7.1",
-		"ava": "^1.0.0-beta.8",
-		"eslint": "^5.6.1",
-		"nyc": "^13.0.1",
-		"nyc-config-common": "^1.0.0"
+		"@shinnn/eslint-config": "^6.9.0",
+		"ava": "^1.2.1",
+		"eslint": "^5.14.1",
+		"nyc": "^13.3.0",
+		"nyc-config-common": "^1.0.1"
 	},
 	"eslintConfig": {
 		"extends": "@shinnn"

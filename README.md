@@ -1,7 +1,7 @@
 # vertical-meter
 
 [![npm version](https://img.shields.io/npm/v/vertical-meter.svg)](https://www.npmjs.com/package/vertical-meter)
-[![Build Status](https://travis-ci.org/shinnn/vertical-meter.svg?branch=master)](https://travis-ci.org/shinnn/vertical-meter)
+[![Build Status](https://travis-ci.com/shinnn/vertical-meter.svg?branch=master)](https://travis-ci.com/shinnn/vertical-meter)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/vertical-meter.svg)](https://coveralls.io/github/shinnn/vertical-meter?branch=master)
 
 Generate a dotted vertical bar whose height depends on the given value
@@ -24,7 +24,7 @@ console.log(
 
 ## Installation
 
-[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install vertical-meter
@@ -51,4 +51,4 @@ Return: `string`
 
 ## License
 
-[ISC License](./LICENSE) © 2018 Shinnosuke Watanabe
+[ISC License](./LICENSE) © 2018 - 2019 Shinnosuke Watanabe
